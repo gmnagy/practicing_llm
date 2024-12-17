@@ -11,3 +11,6 @@ print(tokens)
 
 text = encoding.decode(tokens)
 print(text)
+
+for token in tokens:
+    print(f"{token}: {encoding.decode([token])}")

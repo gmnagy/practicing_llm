@@ -10,6 +10,7 @@ example_token_id = tokenizer.convert_tokens_to_ids(["example"])[0]
 example_embedding = model.embeddings.word_embeddings(torch.tensor([example_token_id]))
 
 print(np.linalg.norm(example_embedding.detach().numpy(), ord=2))
+# print(example_embedding.shape)
 # torch.Size([1, 768])
 
 
