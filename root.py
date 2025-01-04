@@ -10,3 +10,7 @@ def data_path():
 
 def data_input_path():
     return data_path() + 'input/'
+
+def data_output_path():
+    return data_path() + 'output/'
+
