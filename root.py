@@ -14,3 +14,5 @@ def data_input_path():
 def data_output_path():
     return data_path() + 'output/'
 
+def data_temp_path():
+    return data_path() + 'temp/'
